@@ -1,0 +1,2 @@
+# .firefox
+🥣 My souper firefox 🦊
