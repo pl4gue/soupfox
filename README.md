@@ -1,4 +1,4 @@
-# <div align=center>🥣 *souperfox* 🦊</div>
+# 🥣 *souperfox* 🦊
 
 This is my firefox config, hope you can find it useful to you,
  it uses:
