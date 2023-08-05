@@ -1,8 +1,11 @@
 #!/bin/bash
 
-dir=~/.mozilla/firefox/
-if [ -d "$dir" ] ; then
-   mv chrome/ user.js "$dir/?*.default-release"
-   echo -e "Firefox cloned to the directories:\n$(ls -a | grep 'default-release')"
+firefoxDir=~/.mozilla/firefox/
+scriptDir=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+
+if [ -d "$firefoxDir" ] ; then
+   cp -r $scriptDir/chrome/ $scriptDir/user.js $firefoxDir?*.default-release
+   echo -e "Firefox cloned to the directories:\n$(ls -a $firefoxDir | grep 'default-release')"
 fi
-unset dir
+unset scriptDir
+unset firefoxDir
