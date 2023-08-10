@@ -5,7 +5,7 @@ This is my firefox config, hope you can find it useful to you,
 - **[Cascade](https://github.com/andreasgrafen/cascade)** for the ✧˖°. ***looks*** .°˖✧
 - **[BetterFox](https://github.com/yokoffing/Betterfox)** for the *🗲blazingly fast🗲* and *🔐secure🔐* settings
 
-© All credits the respective devs of the projects.
+© All credits to the respective devs of the projects.
 
 <details><summary>🦊</summary>
   <div align=center>
