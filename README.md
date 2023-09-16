@@ -1,4 +1,4 @@
-# 🥣 *souperfox* 🦊
+# 🥣 *soupfox* 🦊
 
 This is my firefox config, hope you can find it useful to you,
  it uses:
