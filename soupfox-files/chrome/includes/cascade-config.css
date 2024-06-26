@@ -98,9 +98,6 @@
 #back-button[disabled="true"] { display: none !important }
 #forward-button[disabled="true"] { display: none !important }
 
-/* Hide star button (bookmark) */
-#star-button{ display:none; }
-
 /* Disables the Tracking Protection Shield */
 #tracking-protection-icon-container { display: none !important; }
 
@@ -111,27 +108,18 @@
   /* #identity-box { display: none !important } */
 
 /* Hide everything BUT the zoom indicator within the URL Bar */
-#page-action-buttons > :not(#urlbar-zoom-button):not(#star-button-box) { display: none !important; }
+#page-action-buttons > :not(#urlbar-zoom-button) { display: none !important; }
 .urlbar-page-action > image { margin-top: var(--uc-page-action-margin) !important; }
 
 /* Hide Container Tab labels inside the URL bar */
 #userContext-icons { display: none !important; }
 
-
 /* Hide the »Go«-arrow in the URL Bar */
 #urlbar-go-button { display: none !important; }
-
-/* Hides the Extensions Menu Icon */
-/* #unified-extensions-button { display: none !important; } */
-
-
-
-
 
 /*---+---+---+---+---+---+---+
 | T | A | B | — | B | A | R |
 +---+---+---+---+---+---+---*/
-
 
 :root {
 
